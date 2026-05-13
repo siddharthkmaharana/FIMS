@@ -4,5 +4,5 @@ import { appParams } from '@/lib/app-params';
 export const base44 = createClient({
     appId: appParams.appId,
     token: appParams.token,
-    baseUrl: appParams.appBaseUrl,
+    baseURL: appParams.appBaseUrl,
 });
